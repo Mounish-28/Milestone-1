@@ -1,0 +1,33 @@
+:root {
+
+  /* Light Theme */
+
+  --bg:#F4F7FC;
+
+  --card:#FFFFFF;
+
+  --sidebar:#0F172A;
+
+  --sidebar-hover:#1E293B;
+
+  --primary:#2563EB;
+
+  --primary-hover:#1D4ED8;
+
+  --success:#10B981;
+
+  --warning:#F59E0B;
+
+  --danger:#EF4444;
+
+  --text:#0F172A;
+
+  --text-light:#64748B;
+
+  --border:#E2E8F0;
+
+  --shadow:0 10px 30px rgba(15,23,42,.08);
+
+  --radius:14px;
+
+}

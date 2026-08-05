@@ -1,0 +1,223 @@
+/* ===========================
+   Settings Container
+=========================== */
+
+.settings-container{
+
+    margin-left:260px;
+    padding:30px;
+    min-height:100vh;
+    background:#F4F7FC;
+
+}
+
+
+
+/* ===========================
+   Settings Cards
+=========================== */
+
+
+.settings-card{
+
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    margin-bottom:25px;
+    box-shadow:0 6px 15px rgba(0,0,0,.08);
+
+}
+
+
+
+.settings-card h3{
+
+    color:#1E293B;
+    margin-bottom:20px;
+    font-size:20px;
+
+}
+
+
+
+/* ===========================
+   Form
+=========================== */
+
+
+.form-group{
+
+    display:flex;
+    flex-direction:column;
+    margin-bottom:18px;
+
+}
+
+
+
+.form-group label{
+
+    font-size:14px;
+    color:#475569;
+    margin-bottom:8px;
+    font-weight:600;
+
+}
+
+
+
+.form-group input{
+
+    padding:12px 15px;
+    border:1px solid #CBD5E1;
+    border-radius:10px;
+    outline:none;
+    font-size:14px;
+
+}
+
+
+
+.form-group input:focus{
+
+    border-color:#2563EB;
+    box-shadow:0 0 0 3px rgba(37,99,235,.15);
+
+}
+
+
+
+/* ===========================
+   Save Button
+=========================== */
+
+
+.save-btn{
+
+    background:#2563EB;
+    color:white;
+    border:none;
+    padding:12px 25px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:600;
+
+}
+
+
+.save-btn:hover{
+
+    background:#1D4ED8;
+
+}
+
+
+
+/* ===========================
+   Setting Rows
+=========================== */
+
+
+.setting-row{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:18px 0;
+    border-bottom:1px solid #E2E8F0;
+
+}
+
+
+
+.setting-row:last-child{
+
+    border-bottom:none;
+
+}
+
+
+
+.setting-row h4{
+
+    color:#1E293B;
+    margin-bottom:5px;
+
+}
+
+
+
+.setting-row p{
+
+    color:#64748B;
+    font-size:14px;
+
+}
+
+
+
+/* Checkbox */
+
+.setting-row input{
+
+    width:20px;
+    height:20px;
+    cursor:pointer;
+
+}
+
+
+
+/* ===========================
+   Password Button
+=========================== */
+
+
+.change-btn{
+
+    background:#0F766E;
+    color:white;
+    border:none;
+    padding:12px 22px;
+    border-radius:10px;
+    cursor:pointer;
+    font-weight:600;
+
+}
+
+
+
+.change-btn:hover{
+
+    background:#115E59;
+
+}
+
+
+
+/* ===========================
+   Responsive
+=========================== */
+
+
+@media(max-width:768px){
+
+
+    .settings-container{
+
+        margin-left:0;
+        padding:15px;
+
+    }
+
+
+    .setting-row{
+
+        flex-direction:column;
+        align-items:flex-start;
+        gap:15px;
+
+    }
+
+
+}
